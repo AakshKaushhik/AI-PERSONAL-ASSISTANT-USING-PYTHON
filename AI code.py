@@ -133,7 +133,7 @@ if __name__=='__main__':
         elif 'who are you' in statement or 'what can you do' in statement:
             speak('I am andrew version 1 point O your persoanl assistant. I am programmed to minor tasks like'
                   'opening youtube,google chrome,gmail,predict time,search wikipedia,predict weather' 
-                  'in different cities , get top headline news from times of india and you can ask me computational or geographical questions too!')
+                  'in different cities, get top headline news from times of india and you can ask me computational or geographical questions too!')
 
 
         elif "who made you" in statement or "who created you" in statement or "who discovered you" in statement:
@@ -164,11 +164,7 @@ if __name__=='__main__':
             speak(answer)
             print(answer)
 
-        elif "play andrew" in statement or "play boruto" in statement:
-            speak("opening andrew")
-            webbrowser.open_new_tab("https://ww4.andrewget.ru/")
-            time.sleep(5)       
-
+  
         elif "play" in statement:
              song = statement.replace('play', '')
              speak('playing ' + song)

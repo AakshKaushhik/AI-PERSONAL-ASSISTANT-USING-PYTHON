@@ -184,7 +184,7 @@ if __name__=='__main__':
             subprocess.Popen('C:\\Windows\\System32\\calc.exe')
         
         elif "discord" in statement:
-             os.system('C:\\Windows\\System32\\discord.exe')
+             os.startfile('C:\\Windows\\System32\\discord.exe')
 
 time.sleep(3)
 
